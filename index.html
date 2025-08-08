@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascota Adoptar!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="img\Perritos.jpeg" alt="Perritos"></div>
+        <nav>
+            <a href="">INICIO</a>
+            <a href="">PRODUCTOS</a>
+            <a href="">CONTACTO</a>
+            <a href="">REFERENCIA</a>
+        </nav>
+    </header>
+    <main>
+
+        <article> 
+            <div class="text">
+                <h1>Golden Retriever</h1>
+                <p id="adoptar1">Adoptar</p>
+            </div>
+            <img src="img\Golden Retriever.jpeg" alt="Golden Retriever">
+        </article>
+
+        <script>
+            document.getElementById("adoptar1").addEventListener("click", function() {
+                this.textContent = "¡Adoptado!";
+            });
+        </script>  
+
+        <article>
+            <div class="text">
+                <h1>Pug</h1>
+                <p id="adoptar2">Adoptar</p>
+            </div>
+            <img src="img\Pug.jpeg" alt="Pug">
+        </article>
+
+        <script>
+            document.getElementById("adoptar2").addEventListener("click", function() {
+                this.textContent = "¡Adoptado!";
+            });
+        </script>
+
+        <article>
+            <div class="text">
+                <h1>Pequines</h1>
+                <p id="adoptar3">Adoptar</p>
+            </div>
+            <img src="img\Perrito.jpeg" alt="Pequines">
+        </article>
+
+        <script>
+            document.getElementById("adoptar3").addEventListener("click", function() {
+                this.textContent = "¡Adoptado!";
+            });
+        </script>
+
+        <article>   
+            <div class="text">
+                <h1>Husky</h1>
+                <p id="adoptar4">Adoptar</p>
+            </div>
+            <img src="img\Husky.jpeg" alt="Husky">
+        </article>
+
+        <script>
+            document.getElementById("adoptar4").addEventListener("click", function() {
+                this.textContent = "¡Adoptado!";
+            });
+        </script>
+        
+    </main>
+    <footer>
+        <div class="container">
+            <p class="footerP">Para saber más te invitamos a llamarnos al número +51 945 087 234</p>
+            <nav class="footerNAV">hecho por Juan Del Aguila    </nav>
+        </div>
+    </footer>
+</body>
+</html>

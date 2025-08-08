@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: rgb(159, 248, 242);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    height: 10%;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    display: flex;
+    border-radius: 4px;
+}
+
+nav {
+    gap:20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 750px;
+    margin-top: 55px;
+
+}
+
+nav a {
+    font-size:1rem Arial;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    
+}
+
+main {
+    margin: 60px auto;
+    padding: 0 300px;
+    max-width: 100  0px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 8px 24x rgba(95, 95, 95, 0.444);
+    padding: 40px;
+    gap: 40px;
+    flex-wrap:wrap;
+    margin: 40px;
+}
+
+article p {
+    background-color:rgb(0, 196, 0);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+footer {
+    background-color:rgb(159, 248, 242);
+    align-items:center;
+}
+
+.adoptar {
+    color: green;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+.adoptado {
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
